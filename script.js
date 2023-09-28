@@ -185,9 +185,9 @@ function newGame() {
 		bulletImpact.remove();			
 	});
 
-	if(document.querySelector(".level.current").id == 'level4') {
-		level4intervals();
-	}
+	// if(document.querySelector(".level.current").id == 'level4') {
+	// 	level4intervals();
+	// }
 
 
 	// Reset levels
@@ -361,4 +361,4 @@ function level5intervals() {
 		innerRoad.style.backgroundPositionX = roadPosition + "px";
 	}, 1000);
 }
-// level5intervals();
+
